@@ -1,0 +1,51 @@
+/* h1{
+    color: blue;
+    font: ;
+}
+
+li{
+    color: red;
+}
+
+p{
+    color: black;
+}
+
+
+body{
+    background:gray;
+}
+
+
+div{
+    background-color: beige;
+    border: black thin dashed;
+}
+
+
+span{
+    background-color: cadetblue;
+    color: black;
+} */
+
+
+.seconddiv{
+    color: blue;
+}
+
+#secondspan{
+    color: brown;
+}
+
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-style: bold;
+}
+
+#firstpar{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+}

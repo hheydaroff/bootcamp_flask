@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Hello, {{name}}!</h1>
+        <h2>We pronounce it as {{letters}}. The first letter is {{letters[0]}}</h2>
+        <h2>We have the following puppies in the house: {{pup_dictionary['pup_name']}}</h2>
+
+        <ul>
+            {%for letter in letters%}
+            <li>{{letter}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+
+</html>

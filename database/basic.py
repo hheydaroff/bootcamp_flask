@@ -3,6 +3,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
+
 # Get the absolute path of the current file
 basedir = os.path.abspath(os.path.dirname(__file__))
 
